@@ -10,3 +10,6 @@ Useful documentation links for various cloud native, k8s , devops tools.
 3. Display git branch and the k8s context
    https://gist.github.com/jason-kane/739d4320f2ee11b71e9588ab82c5029c
 
+4. List of kre plugins for k8s
+   https://krew.sigs.k8s.io/plugins/
+
