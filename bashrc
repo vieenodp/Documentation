@@ -1,3 +1,4 @@
+#  ------------------ bashrc FILE FOR ROOT USER ON UBUNTU WSL 2 ----------------------
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
