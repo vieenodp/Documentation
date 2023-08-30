@@ -17,4 +17,9 @@ e.g. Command cat output.csv | grep "not" | sort | uniq  work properly but
    find /dir1 -type f -printf "%f\n"
 
 5. Rename the files in a directory ( recusrively ) by replacing one word 
+   This example finds all *.XML.gz files and renames the CFGDATA to CFGDATA1 , CFGDATA2 etc.
+
    for f in `find . -name *.XML.gz`; do mv "$f" "`echo $f | sed "s/CFGDATA/CFGDATA$i/"`" ;$((i++)); done
+
+6. Move the renamed files to one single directory from all all sub directories 
+   for f in `find . -name *.XML.gz`; do mv $f temp/; done
