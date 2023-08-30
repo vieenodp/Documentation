@@ -8,3 +8,13 @@ awk 'BEGIN {OFS=" "}{
   getline line < "temp.sh"
   print $0,line
 } ' file1.txt
+
+3. uniq command does not work properly without sort command. 
+e.g. Command cat output.csv | grep "not" | sort | uniq  work properly but 
+     cat output.csv | grep "not" | uniq does not work 
+
+4. While using find command , if you want the result as only file names and not the path then - 
+   find /dir1 -type f -printf "%f\n"
+
+5. Rename the files in a directory ( recusrively ) by replacing one word 
+   for f in `find . -name *.XML.gz`; do mv "$f" "`echo $f | sed "s/CFGDATA/CFGDATA$i/"`" ;$((i++)); done
