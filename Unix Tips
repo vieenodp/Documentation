@@ -1,0 +1,10 @@
+How to combile two files line by line
+
+1. paste file1.txt file2.txt > fileresults.txt
+
+2. awk works better as it does not add new line while joining the 2 files.
+
+awk 'BEGIN {OFS=" "}{
+  getline line < "temp.sh"
+  print $0,line
+} ' file1.txt
