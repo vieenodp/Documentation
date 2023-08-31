@@ -29,3 +29,9 @@ e.g. Command cat output.csv | grep "not" | sort | uniq  work properly but
 
 8. Extract a tag's value from a xml file which is a digit only value. Sort and unique values.
    grep measInfoId A20230801.1945+0100-2000+0100_WMS103.xml | grep -o '\<[0-9][0-9]*\>' | sort | uniq
+
+9. Merge two files , excluding duplicates.
+   sort file1 file2 | uniq 
+   sort -u file1 file2
+
+10. 
