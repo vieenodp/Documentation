@@ -23,3 +23,9 @@ e.g. Command cat output.csv | grep "not" | sort | uniq  work properly but
 
 6. Move the renamed files to one single directory from all all sub directories 
    for f in `find . -name *.XML.gz`; do mv $f temp/; done
+
+7. Extract the numbers from the string 
+   grep -o '\<[0-9][0-9]*\>' example.txt 
+
+8. Extract a tag's value from a xml file which is a digit only value. Sort and unique values.
+   grep measInfoId A20230801.1945+0100-2000+0100_WMS103.xml | grep -o '\<[0-9][0-9]*\>' | sort | uniq
