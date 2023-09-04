@@ -34,4 +34,5 @@ e.g. Command cat output.csv | grep "not" | sort | uniq  work properly but
    sort file1 file2 | uniq 
    sort -u file1 file2
 
-10. 
+10. To find each entry of file1 in file2 and print found and not found entries. 
+    for i in `cat file1.txt`;do count=`egrep  -w $i file2.txt |wc -l`;if [ $count == "0" ];then echo  "$i---Not found in Master counter file";else echo "$i- found in the file,";fi;done  > output.txt
