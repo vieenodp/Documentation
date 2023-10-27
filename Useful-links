@@ -1,2 +1,6 @@
 1. Regular expression 
    https://github.com/google/re2/wiki/Syntax
+
+2. To explore Minio on killerkoda use this minio yaml , comment the resources section.
+   https://www.youtube.com/watch?v=6BlY8Zr8-Cc
+   https://github.com/adityajoshi12/kubernetes-development/blob/main/minio/minio-dev.yaml
