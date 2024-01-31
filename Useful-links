@@ -4,3 +4,22 @@
 2. To explore Minio on killerkoda use this minio yaml , comment the resources section.
    https://www.youtube.com/watch?v=6BlY8Zr8-Cc
    https://github.com/adityajoshi12/kubernetes-development/blob/main/minio/minio-dev.yaml
+
+3. User input taken in python is always a string. 
+   We can convert it to int or float if required.
+   
+   OR while taking input we can convert it e.g. age = int(input("How old are you ? "))
+   
+4. Oops - Methods - functions inside a class
+		  Atttributes - variables with self prefix 
+		  Objects - Vairables assigned to classes
+
+5. python -m py_compile script.py  ( to test syntax errors of python programs )
+
+6. Run python script as linux service ( https://levelup.gitconnected.com/from-python-to-daemon-how-to-turn-your-python-app-into-a-linux-service-controlled-by-systemd-d87b59adfe7a )
+
+7. Sample python script in k8s cron job - https://www.jetpack.io/blog/using-python-and-kubernetes-for-cron-jobs/
+
+8. Pandas to remove duplicates from one column - https://stackoverflow.com/questions/12497402/remove-duplicates-by-columns-a-keeping-the-row-with-the-highest-value-in-column
+
+9. Python wheel file explanation with examples - https://www.youtube.com/watch?v=n2d_7RPTKlk
