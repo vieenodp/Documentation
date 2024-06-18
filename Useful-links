@@ -26,3 +26,4 @@
 
 10. how to convert single quotes to double quotes in python, this helps also in pandas dataframe ( if dealing with json data )  https://stackoverflow.com/questions/70633007/using-python-how-to-replace-single-quotes-to-double-quotes
 
+11. MErge multiple kubeconfig files into one - https://able8.medium.com/how-to-merge-multiple-kubeconfig-files-into-one-36fc987c2e2f
